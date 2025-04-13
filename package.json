@@ -1,8 +1,7 @@
-
 {
-  "name": "whatsapp-api",
+  "name": "whatsapp-call-rejector",
   "version": "1.0.0",
-  "description": "A Node.js WhatsApp API using whatsapp-web.js",
+  "description": "Node.js app to automatically reject WhatsApp calls using whatsapp-web.js with MongoDB session",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,20 +10,15 @@
   "dependencies": {
     "express": "^4.18.2",
     "whatsapp-web.js": "^1.23.0",
-    "qrcode": "^1.5.1",
-    "path": "^0.12.7",
-    "http": "0.0.1-security",
-    "socket.io": "^4.7.2",
-    "fs-extra": "^11.1.1",
-    "crypto": "^1.0.1",
     "mongoose": "^7.0.0",
-    "wwebjs-mongo": "^1.0.0",
-    "dotenv": "^16.3.1"
+    "wwebjs-mongo": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "author": "Ali Abbas",
+  "license": "MIT"
 }
